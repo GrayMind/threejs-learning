@@ -5,7 +5,7 @@ defineProps({
 </script>
 
 <template>
-  <div>1111111</div>
+  <div>22222222</div>
 </template>
 
 <style scoped>
