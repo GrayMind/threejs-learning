@@ -1,10 +1,8 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
 
-import HelloWorld2 from './components/HelloWorld2.vue';
-
 const routes = [
   { path: '/', component: () => import('./apps/first-demo/views/HelloWorld.vue') },
-  { path: '/about', component: HelloWorld2 },
+  { path: '/second', component: () => import('./apps/second-demo/views/HelloWorld.vue') },
 ];
 
 const router = createRouter({
